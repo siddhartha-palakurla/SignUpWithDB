@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel = "stylesheet" href="./style.css">
+    <script defer src= "script.js" ></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Sign Up</h1>
+        <form id="form" action="/" method="GET">
+            <div>
+                <label for="userName-input">
+                    <img src="./person_24dp_1F1F1F_FILL1_wght400_GRAD0_opsz24.svg">
+                    User Name</label>
+                <input type="text" name="userName" id="userName-input">
+            </div>
+            <br>
+            <div>
+                <label for="age-input">
+                    <img src="calendar_month_24dp_1F1F1F_FILL1_wght400_GRAD0_opsz24.svg">
+                    Age</label>
+                <input type="number" name="age" id="age-input">
+            </div>
+            <br>
+            <div>
+                <label for="email-input">
+                    <span>@</span>
+                    Email</label>
+                <input type="text" name="email" id="email-input">
+            </div>
+            <br>
+            <div>
+                <label for="password-input">
+                    <img src="lock_24dp_1F1F1F_FILL1_wght400_GRAD0_opsz24.svg">
+                    Password</label>
+                <input type="password" name="password" id="password-input">
+            </div>
+            <br>
+            <div>
+                <label for="confirmPassword-input">
+                    <img src="lock_24dp_1F1F1F_FILL1_wght400_GRAD0_opsz24.svg">
+                    Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword-input">
+            </div>
+            <br>
+            <div>
+                <label for="mobileNumber-input">
+                    <img src="phone_enabled_24dp_1F1F1F_FILL1_wght400_GRAD0_opsz24.svg">
+                    Mobile Number</label>
+                <input type="tel" name="mobileNumber" id="mobileNumber-input">
+            </div>
+            <br>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div id="error"> </div>
+    </div>
+    
+</body>
+</html>

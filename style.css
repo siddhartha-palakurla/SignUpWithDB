@@ -1,0 +1,16 @@
+html{
+    text-align:center;
+}
+
+wrapper {
+    background: gray;
+    font-family: 'Poppins', sans-serif;
+
+}
+#form{
+    width: 500px;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: 5vh auto 0 auto;
+
+}
