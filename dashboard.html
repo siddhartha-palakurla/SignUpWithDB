@@ -4,26 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel = "stylesheet" href="./style.css">
 </head>
 <body>
+     <nav class="navbar">
+        <div class="nav-left">
+            <span id="navUserName"></span>
+        </div>
 
-    <h1 id="welcomeMessage"></h1>
+        <div class="nav-right">
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </nav>
+    <div id="wrapper">
+        
+        <h1 id="welcomeMessage"></h1>
 
-    <div>
-        <p>User Name:
-            <span id="displayUserName"></span>
-        </p>
+        <div id="userSection">
+            <p>User Name:
+                <span id="displayUserName"></span>
+            </p>
 
-        <p>Age:
-            <span id="displayAge"></span>
-        </p>
+            <p>Age:
+                <span id="displayAge"></span>
+            </p>
 
-        <p>Phone:
-            <span id="displayPhone"></span>
-        </p>
+            <p>Phone:
+                <span id="displayPhone"></span>
+            </p>
+        </div>
+
+        <div id="adminSection" style="display:none;">
+            <h2>All Users</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>User Name</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="userTableBody">
+
+                </tbody>
+            </table>
+        </div>
     </div>
-
-     <script src="dashboard.js"></script>
+        <script src="dashboard.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel = "stylesheet" href="./style.css">
+    <script defer src= "login.js" ></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Log In</h1>
+        <form id="form" action="/" method="GET">
+           
+            <div>
+                <label for="email-input">
+                    <span>@</span>
+                    Email</label>
+                <input type="text" name="email" id="email-input">
+            </div>
+            <br>
+            <div>
+                <label for="password-input">
+                    <img src="lock_24dp_1F1F1F_FILL1_wght400_GRAD0_opsz24.svg">
+                    Password</label>
+                <input type="password" name="password" id="password-input">
+            </div>
+            
+            <br>
+            <button type="submit">Log In</button>
+        </form>
+        <br>
+        <div >Not Signed up.<nav><a href="index.html" >Sign up </a></nav></div>
+        <br>
+        <div id="error"> </div>
+    </div>
+    
+</body>
+</html>

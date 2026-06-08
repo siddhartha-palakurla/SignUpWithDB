@@ -105,7 +105,7 @@ form.addEventListener('submit', async (e) =>{
 
             localStorage.setItem('userName', userData.userName );
 
-            window.location.href = 'dashboard.html';
+            window.location.href = 'login.html';
 
         } catch(error) {
             console.log("FULL ERROR:", error);
