@@ -114,15 +114,13 @@ async function loadAllUsers() {
                             onclick="editUser('${user._id}')">
                             Edit
                         </button>
-                    </td>
-
-                    <td>
-                        <button
+                        <button class="delete-btn"
                             onclick="deleteUser('${user._id}')"
                         >
                             Delete
                         </button>
                     </td>
+
                 </tr>
             `;
         });

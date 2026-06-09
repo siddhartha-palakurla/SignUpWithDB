@@ -6,30 +6,44 @@
 </head>
 <body>
 
-<div class="edit-card">
+        <div class="edit-card">
 
-    <h2>Edit User</h2>
+            <h2>Edit User</h2>
 
-    <input
-        type="text"
-        id="userName"
-        placeholder="User Name">
+        </div>
+        <div class="details-card">
 
-    <input
-        type="number"
-        id="age"
-        placeholder="Age">
+            <h2>User Details</h2>
 
-    <input
-        type="text"
-        id="phone"
-        placeholder="Phone Number">
+            <table class="details-table">
+                <thead>
+                    <tr>
+                        <th>User Name</th>
+                        <th>Age</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
 
-    <button id="updateBtn">
-        Update User
-    </button>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" id="userName" placeholder="User Name">
+                        </td>
 
-</div>
+                        <td>
+                            <input type="number" id="age" placeholder="Age">
+                        </td>
+
+                        <td>
+                            <input type="text" id="phone" placeholder="Phone Number">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button id="updateBtn">Update User</button>
+
+        </div>
 
 <script src="edit.js"></script>
 
